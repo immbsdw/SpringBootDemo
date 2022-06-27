@@ -14,6 +14,7 @@ public class App {
         System.out.println("It is master printing");
         System.out.println("It is hotFix printing22222");
         System.out.println("Push Test");
+         System.out.println("Pull Test");
         SpringRun.run();
         log.info("启动成功");
         DistributeLockTest distributeLockTest=BeanFactory.getBean(DistributeLockTest.class);
