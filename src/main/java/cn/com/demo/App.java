@@ -11,7 +11,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class App {
     public static void main(String[] args) {
-        System.out.println("It is hotFix printing");
+        System.out.println("It is hotFix printing22222");
         SpringRun.run();
         log.info("启动成功");
         DistributeLockTest distributeLockTest=BeanFactory.getBean(DistributeLockTest.class);
